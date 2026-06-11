@@ -1,0 +1,5 @@
+graph TD
+    Doc[Document] --> C[Chunk: size + overlap]
+    C --> M[Attach metadata]
+    M --> E[Embed]
+    E --> I[Index: vector + inverted]

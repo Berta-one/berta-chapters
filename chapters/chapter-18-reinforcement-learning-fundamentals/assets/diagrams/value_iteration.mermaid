@@ -1,0 +1,5 @@
+graph TD
+    Init[V = 0] --> Sweep[Bellman backup over all states]
+    Sweep --> Conv{Converged?}
+    Conv -->|no| Sweep
+    Conv -->|yes| Pol[Extract greedy policy]

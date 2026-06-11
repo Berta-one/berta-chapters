@@ -1,0 +1,15 @@
+# Chapter 16: Multi-Agent Systems Architecture
+# Install: pip install -r requirements.txt
+# Python 3.10+ recommended
+
+# --- Core (required) ---
+numpy>=1.24
+matplotlib>=3.7
+jupyter>=1.0
+networkx>=3.0
+
+# --- Optional (uncomment to install) ---
+# langgraph>=0.0.40
+# pyautogen>=0.2
+# crewai>=0.30
+# anthropic>=0.39

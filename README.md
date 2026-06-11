@@ -67,16 +67,16 @@ Dive deep into cutting-edge techniques and specialized domains.
 
 | Chapter | Topic | Time | Status |
 |---------|-------|------|--------|
-| 16 | Multi-Agent Systems Architecture | 10h | 🔄 Coming Soon |
-| 17 | Advanced RAG & Knowledge Systems | 10h | 🔄 Coming Soon |
-| 18 | Reinforcement Learning Fundamentals | 12h | 🔄 Coming Soon |
-| 19 | Model Optimization & Inference | 8h | 🔄 Coming Soon |
-| 20 | Building Production AI Systems | 10h | 🔄 Coming Soon |
-| 21 | AI for Finance (Specialized) | 10h | 🔄 Coming Soon |
-| 22 | AI Safety & Alignment | 8h | 🔄 Coming Soon |
-| 23 | Building Your Own AI Products | 8h | 🔄 Coming Soon |
-| 24 | Research & Cutting-Edge Techniques | 8h | 🔄 Coming Soon |
-| 25 | AI Governance & Ethics | 6h | 🔄 Coming Soon |
+| 16 | [Multi-Agent Systems Architecture](./chapters/chapter-16-multi-agent-systems-architecture/) | 10h | ✅ Available |
+| 17 | [Advanced RAG & Knowledge Systems](./chapters/chapter-17-advanced-rag-and-knowledge-systems/) | 10h | ✅ Available |
+| 18 | [Reinforcement Learning Fundamentals](./chapters/chapter-18-reinforcement-learning-fundamentals/) | 12h | ✅ Available |
+| 19 | [Model Optimization & Inference](./chapters/chapter-19-model-optimization-and-inference/) | 8h | ✅ Available |
+| 20 | [Building Production AI Systems](./chapters/chapter-20-building-production-ai-systems/) | 10h | ✅ Available |
+| 21 | [AI for Finance (Specialized)](./chapters/chapter-21-ai-for-finance/) | 10h | ✅ Available |
+| 22 | [AI Safety & Alignment](./chapters/chapter-22-ai-safety-and-alignment/) | 8h | ✅ Available |
+| 23 | [Building Your Own AI Products](./chapters/chapter-23-building-your-own-ai-products/) | 8h | ✅ Available |
+| 24 | [Research & Cutting-Edge Techniques](./chapters/chapter-24-research-and-cutting-edge-techniques/) | 8h | ✅ Available |
+| 25 | [AI Governance & Ethics](./chapters/chapter-25-ai-governance-and-ethics/) | 6h | ✅ Available |
 
 ---
 
@@ -268,11 +268,11 @@ pie title Curriculum Breakdown
     "Community Requested" : 999
 ```
 
-- **Chapters Available Now**: 15 (116 hours of content) — Foundation + Practitioner tracks complete
+- **Chapters Available Now**: 25 (216 hours of content) — all tracks complete
 - **Total Planned Chapters**: 25+
-- **Jupyter Notebooks**: 45 interactive notebooks
-- **SVG/Mermaid Diagrams**: 36 professional diagrams
-- **Exercises**: 60+ problems with solutions
+- **Jupyter Notebooks**: 75 interactive notebooks
+- **SVG/Mermaid Diagrams**: 67 professional diagrams
+- **Exercises**: 100+ problems with solutions
 - **Datasets**: 30+ practice datasets
 - **Community-Requested Chapters**: Growing daily
 

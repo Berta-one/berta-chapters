@@ -110,7 +110,7 @@ LEARNING_PATHS = {
     },
 }
 
-AVAILABLE_CHAPTERS = {1, 2, 3, 4, 5, 6, 7}
+AVAILABLE_CHAPTERS = set(range(1, 26))
 
 QUIZ_QUESTIONS = [
     {

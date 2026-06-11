@@ -1,0 +1,5 @@
+graph LR
+    T[Trained model] --> P[Prune]
+    P --> Q[Quantize int8]
+    Q --> D[Distill to student]
+    D --> S[Serve: batched inference]

@@ -1,0 +1,6 @@
+graph LR
+    Build --> Doc[Model card]
+    Doc --> Risk[Risk assessment]
+    Risk --> Review[Review board]
+    Review --> Deploy[Deploy + monitor]
+    Deploy --> Audit[Audit + incident response]

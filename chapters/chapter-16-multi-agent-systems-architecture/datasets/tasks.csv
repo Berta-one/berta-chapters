@@ -1,0 +1,5 @@
+id,description,difficulty,min_skill
+t1,survey the literature,2.0,0.7
+t2,implement prototype,3.0,0.75
+t3,write summary,1.0,0.5
+t4,review for errors,1.5,0.7

@@ -1,0 +1,5 @@
+graph LR
+    P[Perceive: read messages + blackboard] --> D[Decide: policy / LLM]
+    D --> A[Act: call tool / send message]
+    A --> M[Update memory]
+    M --> P

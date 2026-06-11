@@ -1,0 +1,14 @@
+# Chapter 22: AI Safety & Alignment
+# Install: pip install -r requirements.txt
+# Python 3.10+ recommended
+
+# --- Core (required) ---
+numpy>=1.24
+matplotlib>=3.7
+jupyter>=1.0
+
+# --- Optional (uncomment to install) ---
+# fairlearn>=0.10
+# detoxify>=0.5
+# transformers>=4.40
+# anthropic>=0.39

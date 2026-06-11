@@ -1,0 +1,13 @@
+# Chapter 18: Reinforcement Learning Fundamentals
+# Install: pip install -r requirements.txt
+# Python 3.10+ recommended
+
+# --- Core (required) ---
+numpy>=1.24
+matplotlib>=3.7
+jupyter>=1.0
+
+# --- Optional (uncomment to install) ---
+# gymnasium>=0.29
+# stable-baselines3>=2.0
+# torch>=2.0

@@ -1,0 +1,4 @@
+graph TD
+    F32[float32: 4 bytes/param] --> F16[float16: 2 bytes]
+    F16 --> I8[int8: 1 byte]
+    I8 --> Note[Smaller + faster, some accuracy risk]
