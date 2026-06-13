@@ -1,0 +1,7 @@
+graph TD
+    X[Token] --> G[Gate: logits over experts]
+    G --> T[Top-k select + renormalize]
+    T --> E1[Expert i]
+    T --> E2[Expert j]
+    E1 --> C[Weighted combine]
+    E2 --> C

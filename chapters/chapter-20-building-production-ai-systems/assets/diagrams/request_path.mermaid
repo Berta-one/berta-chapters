@@ -1,0 +1,6 @@
+graph LR
+    C[Client] --> RL[Rate limiter]
+    RL --> CB[Circuit breaker]
+    CB --> CR[Canary router]
+    CR --> Stable[Stable model]
+    CR --> Canary[Canary model]

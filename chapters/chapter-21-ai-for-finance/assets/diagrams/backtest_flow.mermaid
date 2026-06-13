@@ -1,0 +1,5 @@
+graph LR
+    P[Prices] --> S[Signal: MA crossover]
+    S --> L[Lag by 1 bar]
+    L --> R[Strategy returns]
+    R --> E[Equity curve + metrics]

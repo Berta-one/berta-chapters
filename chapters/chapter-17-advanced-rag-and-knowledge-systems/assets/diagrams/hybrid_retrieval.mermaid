@@ -1,0 +1,7 @@
+graph LR
+    Q[Query] --> S[BM25 sparse]
+    Q --> D[Dense cosine]
+    S --> F[Reciprocal Rank Fusion]
+    D --> F
+    F --> R[Reranker]
+    R --> G[Generator / LLM]

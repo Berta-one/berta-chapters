@@ -1,0 +1,5 @@
+name,skill,cost,role
+researcher,0.90,1.00,research
+coder,0.80,0.80,implement
+writer,0.60,0.40,summarize
+critic,0.75,0.55,review

@@ -1,0 +1,11 @@
+sequenceDiagram
+    participant Mgr as Manager
+    participant A as Agent A
+    participant B as Agent B
+    Mgr->>A: announce(task)
+    Mgr->>B: announce(task)
+    A-->>Mgr: propose(bid=3.2)
+    B-->>Mgr: propose(bid=1.8)
+    Mgr->>B: accept
+    Mgr->>A: reject
+    B-->>Mgr: inform(result)

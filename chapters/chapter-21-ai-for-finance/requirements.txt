@@ -1,0 +1,15 @@
+# Chapter 21: AI for Finance
+# Install: pip install -r requirements.txt
+# Python 3.10+ recommended
+
+# --- Core (required) ---
+numpy>=1.24
+pandas>=1.5
+matplotlib>=3.7
+jupyter>=1.0
+
+# --- Optional (uncomment to install) ---
+# yfinance>=0.2
+# statsmodels>=0.14
+# backtrader>=1.9
+# scikit-learn>=1.3

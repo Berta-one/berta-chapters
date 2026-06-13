@@ -1,0 +1,6 @@
+[
+  {"name": "spam_filter", "domain": "email", "interacts_with_users": false, "generates_content": false},
+  {"name": "resume_ranker", "domain": "employment", "interacts_with_users": false, "generates_content": false},
+  {"name": "chatbot", "domain": "support", "interacts_with_users": true, "generates_content": true},
+  {"name": "social_scoring", "domain": "social_scoring", "prohibited": true}
+]

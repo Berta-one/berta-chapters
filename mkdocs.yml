@@ -169,6 +169,47 @@ nav:
       - "15.1 Introduction": chapters/content/ch15-01_introduction.md
       - "15.2 Intermediate": chapters/content/ch15-02_intermediate.md
       - "15.3 Advanced": chapters/content/ch15-03_advanced.md
+    - "Advanced Track":
+      - "Ch 16: Multi-Agent Systems": chapters/chapter-16.md
+      - "16.1 Introduction": chapters/content/ch16-01_introduction.md
+      - "16.2 Intermediate": chapters/content/ch16-02_intermediate.md
+      - "16.3 Advanced": chapters/content/ch16-03_advanced.md
+      - "Ch 17: Advanced RAG": chapters/chapter-17.md
+      - "17.1 Introduction": chapters/content/ch17-01_introduction.md
+      - "17.2 Intermediate": chapters/content/ch17-02_intermediate.md
+      - "17.3 Advanced": chapters/content/ch17-03_advanced.md
+      - "Ch 18: Reinforcement Learning": chapters/chapter-18.md
+      - "18.1 Introduction": chapters/content/ch18-01_introduction.md
+      - "18.2 Intermediate": chapters/content/ch18-02_intermediate.md
+      - "18.3 Advanced": chapters/content/ch18-03_advanced.md
+      - "Ch 19: Model Optimization & Inference": chapters/chapter-19.md
+      - "19.1 Introduction": chapters/content/ch19-01_introduction.md
+      - "19.2 Intermediate": chapters/content/ch19-02_intermediate.md
+      - "19.3 Advanced": chapters/content/ch19-03_advanced.md
+      - "Ch 20: Building Production AI Systems": chapters/chapter-20.md
+      - "20.1 Introduction": chapters/content/ch20-01_introduction.md
+      - "20.2 Intermediate": chapters/content/ch20-02_intermediate.md
+      - "20.3 Advanced": chapters/content/ch20-03_advanced.md
+      - "Ch 21: AI for Finance": chapters/chapter-21.md
+      - "21.1 Introduction": chapters/content/ch21-01_introduction.md
+      - "21.2 Intermediate": chapters/content/ch21-02_intermediate.md
+      - "21.3 Advanced": chapters/content/ch21-03_advanced.md
+      - "Ch 22: AI Safety & Alignment": chapters/chapter-22.md
+      - "22.1 Introduction": chapters/content/ch22-01_introduction.md
+      - "22.2 Intermediate": chapters/content/ch22-02_intermediate.md
+      - "22.3 Advanced": chapters/content/ch22-03_advanced.md
+      - "Ch 23: Building Your Own AI Products": chapters/chapter-23.md
+      - "23.1 Introduction": chapters/content/ch23-01_introduction.md
+      - "23.2 Intermediate": chapters/content/ch23-02_intermediate.md
+      - "23.3 Advanced": chapters/content/ch23-03_advanced.md
+      - "Ch 24: Research & Cutting-Edge": chapters/chapter-24.md
+      - "24.1 Introduction": chapters/content/ch24-01_introduction.md
+      - "24.2 Intermediate": chapters/content/ch24-02_intermediate.md
+      - "24.3 Advanced": chapters/content/ch24-03_advanced.md
+      - "Ch 25: AI Governance & Ethics": chapters/chapter-25.md
+      - "25.1 Introduction": chapters/content/ch25-01_introduction.md
+      - "25.2 Intermediate": chapters/content/ch25-02_intermediate.md
+      - "25.3 Advanced": chapters/content/ch25-03_advanced.md
   - Playground: playground.md
   - Community:
     - Contributing: guides/contributing.md

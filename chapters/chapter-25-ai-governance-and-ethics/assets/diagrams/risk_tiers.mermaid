@@ -1,0 +1,8 @@
+graph TD
+    S[AI system] --> Q1{Prohibited use?}
+    Q1 -->|yes| U[Unacceptable]
+    Q1 -->|no| Q2{High-risk domain?}
+    Q2 -->|yes| H[High risk]
+    Q2 -->|no| Q3{Interacts / generates?}
+    Q3 -->|yes| L[Limited risk]
+    Q3 -->|no| M[Minimal risk]

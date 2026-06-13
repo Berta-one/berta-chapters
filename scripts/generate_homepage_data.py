@@ -166,7 +166,8 @@ def main() -> None:
 </div>"""
 
     foundation = [c for c in chapters if c["num"] <= 5]
-    practitioner = [c for c in chapters if c["num"] > 5]
+    practitioner = [c for c in chapters if 5 < c["num"] <= 15]
+    advanced = [c for c in chapters if c["num"] > 15]
     table_lines = [
         "## Available Chapters",
         "",
@@ -177,15 +178,22 @@ def main() -> None:
     ]
     for c in foundation:
         table_lines.append(f"| {c['num']} | [{c['title']}]({c['doc_link']}) | {c['hours']} | {format_includes(c)} |")
-    table_lines.extend([
-        "",
-        "### Practitioner Track — In Progress",
-        "",
-        "| # | Chapter | Hours | Includes |",
-        "|---|---------|-------|----------|",
-    ])
-    for c in practitioner:
-        table_lines.append(f"| {c['num']} | [{c['title']}]({c['doc_link']}) | {c['hours']} | {format_includes(c)} |")
+
+    def section(title, rows):
+        table_lines.extend([
+            "",
+            f"### {title}",
+            "",
+            "| # | Chapter | Hours | Includes |",
+            "|---|---------|-------|----------|",
+        ])
+        for c in rows:
+            table_lines.append(f"| {c['num']} | [{c['title']}]({c['doc_link']}) | {c['hours']} | {format_includes(c)} |")
+
+    if practitioner:
+        section("Practitioner Track — Complete", practitioner)
+    if advanced:
+        section("Advanced Track — Complete", advanced)
     next_num = max(c["num"] for c in chapters) + 1
     if next_num <= 25:
         table_lines.append(f"| {next_num}–25 | Coming soon | | [View roadmap](guides/roadmap.md) |")

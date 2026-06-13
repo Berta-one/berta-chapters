@@ -1,0 +1,6 @@
+stateDiagram-v2
+    [*] --> Closed
+    Closed --> Open: failures >= threshold
+    Open --> HalfOpen: after reset timeout
+    HalfOpen --> Closed: success
+    HalfOpen --> Open: failure
